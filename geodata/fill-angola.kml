@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+  <name>Fill Angola</name>
+  <Folder>
+    <name>Countries</name>
+    <visibility>0</visibility>
+    <NetworkLink>
+      <name>Angola (linked)</name>
+      <visibility>0</visibility>
+      <open>0</open>
+      <Link>
+        <href>http://yourserver.com/cgi-bin/randomPlacemark.py</href>
+      </Link>
+    </NetworkLink>
+      <Style>
+        <PolyStyle>
+          <color>ffff0000</color>
+        </PolyStyle>
+      </Style>	

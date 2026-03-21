@@ -1,0 +1,6 @@
+# dwiddows bash settings
+export EDITOR=emacs
+alias emcas=emacs
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'

@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Dominic Widdows - Geometry and Meaning - Companion website</title>
+    <!-- <author>Dominic Widdows</author> -->
+    <link rel="stylesheet" type="text/css" href="css/book-style.css">
+  </head>
+
+  <body> 
+    <h1 align="center">Geometry and Meaning - Companion website</h1>
+
+<a href="./graphics/cover-actualsize.jpg"><image src='cover-small.jpg' align='right'></a>
+
+    <dl>
+      <dd>
+        <table cellpadding="8">
+          <tr align="left">
+            <td>
+              <b>Author :</b>
+              <a href="./author.html">Dominic Widdows</a>
+            </td>
+            <td>|</td>
+            <td>
+              <b>Publisher :</b>
+              <a
+                 href="http://cslipublications.stanford.edu/site/1575864487.html">CSLI Publications</a>
+            </td>
+            <td>|</td>
+            <td>
+              <b>Purchase here :</b>
+              <a
+                 href="http://www.press.uchicago.edu/cgi-bin/hfs.cgi/00/16119.ctl">University of Chicago Press</a>
+            </td>
+          </tr>
+        </table>
+      </dd>
+    </dl>
+
+<p>
+
+From the earliest applications in astronomy, music, and biology, to
+the design of today's user interfaces and search engines, geometric
+insights have provided powerful tools and accurate scientific
+predictions. In Geometry and Meaning, these threads are gathered
+together and told as a single evolving story. Mathematical models from
+ancient times to the present are described for the general reader,
+together with the stories behind their discovery, and their
+applications in the new and vibrant field of natural language
+processing.
+
+<p>
+
+As well as a historical survey, Geometry and Meaning presents
+startling new research to the scientific public for the first
+time. Computers can now learn about the meaning of a word just by
+reading every day documents, even recognizing ambiguity and idiom. The
+logic used to explore the meanings of an ambiguous word depends on
+whether the underlying spatial model is continuous or discrete, and
+this relates the design of search engines to one of today's great
+scientific mysteries - the relationship between classical physics and
+quantum mechanics. In a surprising conclusion, Aristotle, long thought
+of as a great scientist and philosopher but a poor mathematician,
+shines through as the unlikely hero of modern geometry.
+
+<p>
+
+<hr>
+
+<h3>Reviews</h3>
+
+Here are links to the reviews that Geometry and Meaning has
+received. Please contact the author if you are aware of others.
+
+<ul>
+<li>
+<a
+   href="http://www.amazon.com/exec/obidos/tg/detail/-/1575864487/ref=pd_ecc_rvi_1/002-7751430-3203225?%5Fencoding=UTF8&v=glance">Konstantinos Nedas, Amazon.com</a>.
+  <br>
+  <i>"A wonderful work ... The strongest point of the book is its clarity."</i></li>
+
+<br>
+   
+<li>
+<a href="http://maa.org/reviews/GeometryandMeaning.html">Annalisa
+          Crannell, Mathematical Association of America</a>.
+  <br>
+	  <i> "I can say quite honestly that this book opened up a whole new world to me ... When I next teach Linear Algebra, I have a whole new set of examples close at hand." </i> 
+</li>
+  
+<br>
+	  
+<li>
+<a
+   href="http://www.amazon.com/gp/product/customer-reviews/1575864487/ref=cm_cr_dp_pt/103-6104512-7253465?%5Fencoding=UTF8&n=283155&s=books">P. R. Van Emburg, Amazon.com</a>.
+<br>
+	  <i>"A polymathic gem ... Science education is greatly enriched by books like "Geometry and Meaning"."</i></li>
+
+	    
+<br>
+	  
+<li>
+<a
+   href="http://www.reviews.com/review/review_review.cfm?review_id=131984">Anthony J. Duben, Association for Computing Machinery, Computing Reviews.</a>
+<br>	  
+<i>"This is an unusual book. It tackles the problem of representing
+meaning in human language mathematically, and it does so with style
+and substance ... It would be a good purchase for a library, and for
+many personal bookshelves."</i></li>
+
+<br>
+
+<li> <a href="http://www.cs.unimaas.nl/a.waagmeester/personal/Books.html">
+Andra Waagmeester, Universiteit Maastrict.</a>
+<br>
+<i>"The world of sophie" was a brief but good introduction to
+Filosophy. "Geometry and Meaning" gives the same clear and brief
+introduction to Text Mining ... It reads like a novel and is very
+suitable as a book you read during traveling.</i></li>
+
+<br>
+
+<li> <a href="http://www.emis.de:80/cgi-bin/zmen/ZMATH/en/quick.html?first=1&maxdocs=3&type=html&an=1068.00003&format=complete">Albert A. Mullin (Madison), Zentrallbatt Math.</a> 
+<br><i>"This book will be most useful to the intelligent general reader interested in novel uses of mathematics, language and computers."</i>
+</li>
+
+<br>
+
+<li> <a
+href="http://www.mitpressjournals.org/doi/abs/10.1162/coli.2006.32.1.155">Keith
+van Rijsbergen, Computational Linguistics.</a> Prof. van Rijsbergen is
+the author of <a href="http://ir.dcs.gla.ac.uk/GeometryOfIR/">The
+Geometry of Information Retrieval.</a>
+
+<br><i>"It is an enjoyable read, as intended by the author, and succeeds as a sort of tourist guide to the subject at hand ... It may be the first steps along the way to recasting some old problems in terms of some new mathematics."</i>
+</li>
+
+</ul>
+
+<hr>
+
+<h3>Sample Chapter</h3>
+
+Chapter 5, <i>Word Vectors and Search Engines</i>, was used for the
+2003 Computational Word Learning course at Stanford. You can <a
+href="../papers/vector-chapter.pdf">download
+this as a sample chapter</a>.
+
+
+<hr>
+
+<h2>Contents</h2>
+
+The links below contain the introductory section to each chapter, and
+a summary of the contents of each section. Some of these summaries are
+still under development.
+
+<b>
+
+<p>
+<a href="./chapters/foreword.html">Foreword</a>, by <a
+href="http://www.rni.org/kanerva/homepg.html">Pentti Kanerva</a>
+
+<p>
+<a href="./chapters/introduction.html">Introduction and Timeline</a>
+
+<p>
+Chapter 1. 
+<a href="./chapters/chapter1.html">Geometry, Numbers and Sets</a>
+
+<p>
+Chapter 2. 
+<a href="./chapters/chapter2.html">The Graph Model: Networks of
+                      Concepts</a>
+
+<p>
+Chapter 3. 
+<a href="./chapters/chapter3.html">The Vertical Direction: Concept Hierarchies</a>
+
+<p>
+Chapter 4. 
+<a href="./chapters/chapter4.html">Measuring Similarity and Distance</a>
+
+<p>
+Chapter 5. 
+<a href="./chapters/chapter5.html">Word-Vectors and Search Engines</a>
+
+<p>
+Chapter 6. 
+<a href="./chapters/chapter6.html">Exploring Vector Spaces in One and
+                              More Languages</a>
+
+<p>
+Chapter 7. 
+<a href="./chapters/chapter7.html">Logic with Vectors: Ambiguous Words
+                              and Quantum States</a>
+
+<p>
+Chapter 8. 
+<a href="./chapters/chapter8.html">Concept Lattices: Binding
+                                  Everything Loosely Together</a>
+
+<p>
+Epilogue.
+<a href="./chapters/conclusion.html">Conclusions and Curtain Call</a>
+
+<hr>
+
+<p>
+<a href="./acknowledgements.html">Acknowledgments and Thanks</a>
+
+<p>
+<a href="./colophon.html">Typesetting and Programming</a>
+
+<p>
+<a href="./errata.html">Errata</a>
+
+
+    <hr>
+    <address><image src="./graphics/signature.gif"></address>
+
+</b>
+ 
+<!-- Created: Sat Jan 15 10:33:23 EST 2005 -->
+<!-- hhmts start -->
+Last modified: Sun Sep 18 21:47:06 EDT 2005
+<!-- hhmts end -->
+
+<br>
+
+Dominic Widdows, Geometry and Meaning : Dominic Widdows, Geometry and
+Meaning : Apologies for this repetition, "widdows geometry and
+meaning" is the query suggested at the end of the book, I had better
+make sure it works, and this query is bringing up a lot of library
+catalogue listings now! : Dominic Widdows, Geometry and Meaning :
+Dominic Widdows, Geometry and Meaning
+
+  </body>
+</html>

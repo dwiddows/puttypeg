@@ -1,0 +1,207 @@
+<html><head> <meta name="Dominic Widdows" content="Mathematics,
+Science, Language, Music"><title>Puttypeg home page, Dominic Widdows Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="css/main-style.css">
+</head> 
+
+<!-- main content pane -->
+
+<!-- title bar -->
+<table width=100%>
+<tr>
+<td align="left" >
+<a href="rings">
+<image src="finished-rings-thumbnail.jpg" width=160 alt="Arts and Crafts" border=2>
+</a>
+</td>
+<td>
+<h1 align="center"> Puttypeg Home Page </h1>
+</td>
+<td align="right">
+<a href="papers">
+<image src="images/platonic.gif" width=160 height=120 alt="Science" border=2>
+</a>
+</td>
+</tr>
+</table>
+
+<hr>
+
+<br>
+
+This is the personal website of Dominic Widdows. It contains a range
+of <a href="./music/">music</a>, <a href="./poetry/">poetry</a>,
+<a href="./papers">science</a>,
+<a href="./essays">essays</a>, and so on.
+
+<br>
+<br>
+Professionally speaking I've worked mainly in mathematics, science,
+and software engineering, and now I'm contributing to quantum
+computing and artificial intelligence
+at <a href="https://www.ionq.com/">IonQ</a>.
+
+<br>
+<br>
+Once upon a time, I thought
+that "Puttypeg" was a sweet name for an approach to life and learning
+that tried to grow as flexibly as possible. It's said that "you can't
+put a square peg in a round hole", and nowadays the challenges in the
+world are changing so fast, we need adaptible people to fit into
+whatever gaps need attention. So I don't try and be a square peg or a
+round peg the whole time, I try to be a putty peg and look for ways to
+make myself and my skills useful wherever they're needed most.
+
+<br><br>
+
+Needless to say, none of the material you'll read on this website
+represents the official standpoint of LivePerson, Grab, Microsoft, Google, the
+BBC, Bourbaki, or anyone else with a shred of organizational clout.
+
+<br>
+
+<hr>
+
+<h3>Science</h3>
+
+Lots of contributions can be found in
+this <a href="./papers">reasonably complete list of papers</a>. Not
+all as readable as I'd have liked!
+
+<p>
+My most popular scientific work is still <a
+href="./book">Geometry and Meaning</a>. For
+once, I could try to please everyone, including myself &mdash;
+many general readers have written to me or reviewed the book saing
+they enjoyed it thoroughly, while several professionals reviewers
+praised the book in important journals.
+
+
+<h3>Public Software</h3>
+
+<ul>
+  <li> <b><a href="https://www.amazon.com/-/dp/B09FKM3ZMH/">LaTeX to eBook 2021: The book about itself</a></b>
+    is a tiny book <i>and</i> open source project called <a href="https://github.com/dwiddows/ebookbook">ebookbook</a>
+    which was used to create the book about itself.
+      
+  <li> <b><a href="https://github.com/dwiddows/lplangid">lplangid</a></b>,
+    a powerful and easily configured package for language identification.
+
+  <li><b><a href="https://github.com/dwiddows/pilmaps">pilmaps</a></b>,
+    a package that uses the Python Imaging Library to render maps.
+
+  <li><b><a href="http://code.google.com/p/stardroid/">Sky Map for
+Android</a></b>. The Android planetarium app is now an open source
+project! It's a free mobile application for the Android platform that
+uses your phone's sensors to display a map of the stars the phone is
+pointing at (even if your roof, clouds, or the earth is in the way!).
+</li>
+
+<li>
+<b><a href="http://code.google.com/p/semanticvectors"> Semantic
+Vectors</a></b>, a Java package for creating semantic models: learning the
+meanings of words and documents from reading lots of free
+text. Originally created in conjunction with the University of Pittsburgh.
+Now includes <a href="https://github.com/semanticvectors/semvecpy">semvecpy</a>,
+which replicates some of the Java package in Python.
+</li>
+
+<li> 
+<b><a href="http://infomap-nlp.sourceforge.net/">Infomap NLP
+package</a></b>, a forerunner of Semantic Vectors created in
+conjunction with Stanford University.
+</li>
+</ul>
+
+<p>
+I shouldn't even link to these, but here are some <a href="./essays/jokes.html"> terrible jokes</a>.
+
+<h3>Essays</h3>
+
+A collection of a few <a href="./essays">essays</a> on different
+topics, including healthcare, politics, and religion.
+
+<h3>Music</h3>
+
+You'll find <a href="./music">a couple of songs</a> and some useful
+guitar chord sheets.
+
+<p>
+Back in Pittsburgh I enjoyed playing the trumpet with
+<a href="http://www.khafif.com">Khafif</a>, a terrific Middle Eastern
+and Balkan music and dance group.
+
+<p>
+Another collaborator in Pittburgh was <a
+href="http://www.brentmalin.com">Brent Malin</a>, who I
+played a variety of folk and country songs with for a couple of years,
+including a guitar and mandolin duo at Club Cafe.
+
+<h3>Arts and Crafts</h3>
+
+Software development and academic research are enjoyable in their way,
+but there is nothing I find more satisfying than working with my
+hands.  We're restored the ground floor of our Tudor style house in
+Squirrel Hill, and made furniture, curtains, laid wood floor, panelled
+and finished the rooms. I always mean to take pictures of these
+projects before and during and after, and mean to post them
+online. But give me a circular saw to play with and I won't touch a
+computer all day.
+
+<p>
+
+One project I did keep a good record of was when Maryl and I made our
+<a href="rings"> wedding rings</a>.
+
+<h3>Poetry</h3>
+
+Here are a <a href="poetry">couple of poems</a>.
+
+<p>
+We also set up a sporadic <a
+href="http://sites.google.com/site/poetrypit">Pittsburgh poetry group</a>
+at work. It evolved accidentally into a collaborative process: the
+players contribute a topic idea each, and then we go off for a few
+days and write a poem, somehow including at least three or four of the
+topics. The challenge of combining other people's ideas into a new
+poem has brought out some great variety and creativity.
+
+<h3>Weblog</h3>
+
+I keep an occasional weblog for a couple of years called <i>Home Brewed 
+Bulletins</i>, which you can read at <a
+href="http://puttypeg.blogspot.com"><b>puttypeg.blogspot.com</b></a>.
+
+There is a more tech-oriented blog at <a href="https://dwiddows.medium.com/">https://dwiddows.medium.com/</a>.
+
+<hr>
+
+<h3>Kit's Funeral, December 2007</h3>
+
+My father Kit is still ever-present for many of us, and
+crops up unexectedly at times for many more. Information about the
+Funeral and Thanksgiving Service for the Life of Kit Widdows can be
+found at <a href="./kit">http://www.puttypeg.net/kit</a>.
+
+<hr>
+
+<h4>Contact</h4>
+
+<!-- <p>A copy of my resume is available in pdf <a href="./personal/DominicWiddowsResume.pdf">here</a>.
+</p> -->
+
+You can contact me with any feedback or suggestions by writing to 
+<i>dwiddows at gmail dot com</i>.
+<br>
+(Please supply the usual symbols instead of the 'at' and 'dot' - the cryptic notation is just a token gesture to avoid getting the address harvested by spam engines.)
+
+<hr>
+
+<h4>Other Links</h4>
+
+<ul>
+<li>
+<a href="./witness">Fourth Witness</a>, Kit's book.
+</li></ul>
+
+</body></html>
+

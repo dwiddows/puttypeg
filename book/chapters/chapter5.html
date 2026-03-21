@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Chapter 5 - Word-Vectors and Search Engines</title>
+    <link rel="stylesheet" type="text/css" href="../css/book-style.css">
+  </head>
+
+  <body>
+    <h1 align=center>Chapter 5. Word-Vectors and Search Engines</h1>
+
+<b><i>
+This chapter was used as teaching material for the 2003 Computational
+Word Learning course at Stanford. You can therefore <a
+href="../../papers/vector-chapter.pdf">download
+this version</a> as a sample chapter.</i></b>
+
+<p>
+
+So far in the book we have discussed symmetric and antisymmetric
+relationships between particular words in a graph or a hierarchy,
+described one way to learn symmetric relationships from text, and
+shown how to use ideas such as similarity measures and transitivity to
+find nearest neighbours of a particular word. But ideally we should be
+able to measure the similarity or distance between <i>any</i> pair of
+words or concepts.  To some extent, this is possible in graphs and
+taxonomies by finding the lengths of paths between concepts, but there
+are at least three problems with this. First of all, finding shortest
+paths is often computationally expensive and may take a long time.
+Secondly, we may not have a reliable taxonomy, and as we've seen
+already, the fact that there is a short path between two words in a
+graph doesn't necessarily mean that they're very similar, because the
+links in this short path may have arisen from very different contexts.
+Thirdly, the meanings of words we encounter in documents and corpora
+may be very different from those given by a general taxonomy such as
+WordNet --- for example, WordNet 2.0 only gives the <i>fruit</i> and
+<i>tree</i> meanings for the word <i>apple</i>, which is a decided
+contrast with the top 10 pages currently returned by the Google search
+engine when doing an internet search with the query <i>apple</i>, which
+are all about Apple Computers.
+
+<p>
+Another limitation of our methods so far is that we have focussed our
+attention purely on individual concepts, mainly single words. Ideally,
+we should be able to find the similarity between two <i>collections</i>
+of words, and quickly. For this, we need some process for <i>
+semantic composition</i> --- working out how to represent the meanings of
+a sentence or document based on the meaning of the words it
+contains. This all sounds like a pretty tall order, but (to some
+extent) it's actually been possible for years and you will probably
+have encountered such a system many times --- it's precisely what a
+search engine does.
+
+<p>
+The traditional ways in which a search engine accomplishes these tasks
+are almost entirely mathematical rather than linguistic, and are based
+upon numbers rather than meanings. Using its distribution in a
+corpus, the meaning of each word is represented by a characteristic
+list of numbers, and the numbers representing a whole document are
+then given simply by averaging the numbers for the words in the
+document. Bizarre but effective!
+
+<p>
+This chapter is all about the lists of numbers used to represent
+words and documents, and these lists are called <i>vectors</i>.  The
+discussion of vectors will finally bring us to talk in detail about
+different <i>dimensions</i> and what they mean to a mathematician. This
+in itself might be of interest to many readers, and quite different from
+what you supposed.
+
+<h2>Sections</h2>
+
+<ol>
+<li>What are Vectors?</li>
+<li>Journeys in the Plane</li>
+<li>Coordinates, Bases and Dimensions</li>
+<li>Search Engines and Vectors</li>
+<li>Similarity and Distance Functions for Vectors</li>
+<li>Document Vectors and Information Retrieval</li>
+</ol>
+
+<hr>
+<h2>Examples, Demo and Software</h2>
+
+This chapter introduces the material that drove the Infomap WORDSPACE
+demo (now deprecated), a search engine which effectively builds its
+own automatic thesaurus.
+
+<p>
+The Infomap WORDSPACE software is freely available and can be
+downloaded
+from <a href="http://infomap-nlp.sourceforge.net/">http://infomap-nlp.sourceforge.net/</a>.
+The software takes a corpus of natural language documents and builds
+word vectors like those described in this chapter. A more recent,
+stable and fuller-featured alternative is
+the <a href="http://semanticvectors.googlecode.com">SemanticVectors</a>
+package.
+
+<hr>
+
+<table>
+<tr>                               
+<td>Up to <a href="../index.html">Geometry and Meaning</a></td>
+<td>|</td>
+<td>Back to <a href="./chapter4.html">Chapter 4</a></td>
+<td>|</td>
+<td>On to <a href="./chapter6.html">Chapter 6</a></td>
+</tr>
+</table>
+
+<!-- hhmts end -->
+  </body>
+</html>

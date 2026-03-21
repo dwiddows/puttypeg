@@ -1,0 +1,824 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Dominic Widdows - Papers and Publications</title>
+<base href="https://www.puttypeg.net/">
+<link rel="stylesheet" type="text/css" href="css/main-style.css">
+</head><body> 
+
+<h1>Papers, Publications, and Major Talks</h1>
+
+<p>
+
+This page contains links to talks, papers and other articles I've
+written over the years.
+
+<p>See also <a href="https://scholar.google.com/citations?user=WmlYSpoAAAAJ">Google scholar profile</a> which is often more up-to-date!
+
+</p><hr>
+
+<h3>Invited Talks</h3>
+
+A sample of invited scientific talks.
+
+<ul>
+  <li><a href="https://docs.google.com/presentation/d/e/2PACX-1vSOJDyLv7sorSumSJLG49x4hmc9Ju9UqWGm1p5GgdwtJLBbuMl05LTH53Z4HrcRA6_SlGqiW9iso8tA/pub?start=false&loop=false&delayms=3000">Which
+  Language Operations to Implement First with Quantum
+  Computers?</a>. (<a href="./papers/dwiddows_quantum_language.pptx">.pptx</a>)
+			  <a href="http://www.cs.ox.ac.uk/QNLP2019/"><i>Quantum
+  Natural Language Processing</i></a>, Oxford, December 2019.
+    </li>
+  <li><a href="https://www.sites.google.com/site/semspworkshop/speakers">Semantic
+  Spaces: Successes and Goals</a>. <i>Workshop on Semantic Spaces at the
+      Intersection of NLP, Physics and Cognitive Science.</i> Glasgow, Scotland, June 2016.
+    </li>
+    
+<li><a href="http://www.ictir2013.org/keynotes.html">Compositional vector semantics over different ground fields.</a>
+<i>4th International Conference on the Theory of Information Retrieval (ICTIR 2013).</i> Copenhagen, Denmark, September 2013.
+</li>
+<li><a href="http://disco2011.fzi.de/">Empirical Logic with Semantic Vectors.</a>
+<i>ACL Workshop on Distributional Semantics and Compositionality.</i> Portland, Oregon, June 2011.
+</li>
+</ul>
+
+Other invited talks have been at QuantumTech and Q2B, Grab Technologies (in
+Singapore, Jakarta, and Kuala Lumpur), the University of Washington, Microsoft
+Research, and Elsevier.
+
+<br/>
+<br/>
+
+<h3>Journal Papers</h3>
+
+<b>AI / NLP and Quantum Computing</b>
+
+<ul>
+<li>
+<a href="https://link.springer.com/article/10.1007/s10472-024-09940-y">Near-term advances in quantum natural language processing.</a>
+Dominic Widdows, Aaranya Alexander, Daiwei Zhu, Chase Zimmerman & Arunava Majumder. <i>Annals of Mathematics and Artificial Intelligence,</i> 2024.</li>
+<br/>
+<li>
+<a href="https://arxiv.org/abs/2403.19758">Quantum Natural Language Processing.</a>
+Dominic Widdows, Willie Aboumrad, Dohun Kim, Sayonee Ray, Jonathan Mei. <i>Accepted for German Journal of Artificial Intelligence, <a href="https://link.springer.com/journal/13218/updates/26098708">Special issue on Quantum AI</i>, 2024.
+</li>
+<br/>
+<li>
+<a href="https://arxiv.org/abs/2308.07804">Quantum and Classical Combinatorial Optimizations Applied to Lattice-Based Factorization.</a>
+Willie Aboumrad, Dominic Widdows, Ananth Kaushik. <i>Accepted for <a href="https://www.nature.com/npjqi/">NPJ Quantum Information</i>, 2024.
+</li>
+<br/>
+<li>
+<a href="https://doi.org/10.1177/29767032231217444">Quantum Financial Modeling on Noisy Intermediate-Scale Quantum Hardware: Random Walks Using Approximate Quantum Counting.</a>
+Dominic Widdows, Amit Bhattacharyya. <i>Quantum Economics and Finance</i>, 2024, 1(1).
+</li>
+<br>
+<li><a href="https://doi.org/10.3390/app14020792">Mod2VQLS: A Variational Quantum Algorithm for Solving Systems of Linear Equations Modulo 2.</a>
+Willie Aboumrad and Dominic Widdows.
+<i>Applied Sciences</i> 2024, 14(2). 
+</li>
+<br>
+<li>
+  <a href="https://www.cambridge.org/core/journals/natural-language-engineering/article/actionable-conversational-quality-indicators-for-improving-taskoriented-dialog-systems/97B0827A8F75093990BCF487469225BC">Actionable conversational quality indicators for improving task-oriented dialog systems.</a>
+    Higgins M, Widdows D, Hockey BA, et al. <i>Journal of Natural Language Engineering</i>. 2024:1-26. doi:10.1017/S1351324923000372
+</li>
+<br>
+<li>
+  <a href="https://doi.org/10.3390/e25040548">Quantum Circuit Components for Cognitive Decision-Making</a>
+by Dominic Widdows 1, Jyoti Rani, Emmanuel M. Pothos.
+<i>Entropy</i> 2023, 25(4), 548
+</li>
+<br>
+  <li><a href="https://www.jair.org/index.php/jair/article/view/12702">Quantum Mathematics in Artificial Intelligence</a>. 
+    Dominic Widdows, Kirsty Kitto, Trevor Cohen.
+    <i>Journal of Artifical Intelligence Research</i>.
+    72 (2021) 1307-1341. December 2021.
+<a href="https://arxiv.org/abs/2101.04255">(ArXiv preprint)</a>    
+    <ul>
+      <li>
+	A lot of the mathematical tools using in quantum theory are
+	already familiar to lots of people who work in AI and machine
+	learning.
+      </li>
+    </ul>
+  </li>
+  
+  <br />
+  <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/28284761">Embedding of semantic predications</a>.
+Trevor Cohen, Dominic Widdows.
+    <i>Journal of Biomedical Informatics</i>.
+    68:150-166. doi: 10.1016/j.jbi.2017.03.003. April 2017.
+    <ul>
+      <li>
+    Deep learning / neural nets / embeddings help with medical reasoning.
+      </li>
+      <br/>
+    </ul>
+  <li>
+<a href="http://jigpal.oxfordjournals.org/content/early/2014/12/03/jigpal.jzu028.short">
+Reasoning with vectors: a continuous model for fast robust inference</a>.
+D Widdows, T Cohen.
+<i>Logic Jnl IGPL</i>, 10.1093/jigpal/jzu028. 2014.
+<a href="http://www.puttypeg.net/papers/vector-reasoning.pdf">Preprint version</a>.
+<ul><li>
+In this paper we got to tell a full story on continuous
+vector reasoning.  There's a lot of mathematics, informatics, and
+computer science, and several bits of physics, philosophy, medicine,
+history, and geography.
+  </li></ul>
+</ul>
+  
+<b>Biomedical papers</b>
+
+<dl>
+<dt>
+<a href="http://www.sciencedirect.com/science/article/pii/S1532046412001001">
+Discovering discovery patterns with predication-based Semantic Indexing</a>.
+Trevor Cohen, Dominic Widdows, Roger W. Schvaneveldt, Peter Davies, Thomas C. Rindflesch.
+<i>Journal of Biomedical Informatics</i>, In Press, Corrected Proof, Available online 26 July 2012
+</dt>
+
+<br>
+
+<dt><a href="http://www.puttypeg.net/papers/reflective-random-indexing.pdf"> Reflective
+Random Indexing and Indirect Inference: A Scalable Method for the
+Discovery of Implicit Connections</a>. Cohen T, Schvaneveldt,
+R. Widdows D. <i>Journal of Biomedical Informatics</i>. 2010. Apr;
+43(2): 240-256
+</dt>
+
+</dl>
+
+<dl>
+<dt>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/19232399">Empirical
+Distributional Semantics: Methods and Biomedical Applications</a>.
+Trevor Cohen, Dominic Widdows, Journal of Biomedical Informatics,
+April 2009, 42(2), pages 390-405.
+</dt>
+</dl>
+
+
+<b>Papers on language, ontologies, and information extraction</b> (with collaborators in North Africa).
+
+  <dl>
+    <dt><a href="http://www.mecs-press.org/ijieeb/ijieeb-v8-n1/IJIEEB-V8-N1-5.pdf">
+  Exploring Semantic Relatedness in Arabic Corpora using Paradigmatic
+  and Syntagmatic Models</a>. Adil Toumouh, Dominic Widdows, Ahmed Lehireche. <i>I.J. Information Engineering and Electronic Business</i>, Vol 1, pp. 37-47, 2016.
+    </dt>
+    </br>
+    <dt><a href="http://dl.acm.org/citation.cfm?id=2608736">Lightweight domain ontology learning from texts: graph theory-based approach using Wikipedia</a>.
+      Khalida Bensidi Ahmed, Adil Toumouh, Dominic Widdows. International Journal of Metadata, Semantics and Ontologies archive
+      Volume 9 Issue 2, pages 83-90. April 2014.
+    </dt>
+    </br>
+    <dt><a href="http://www.inderscience.com/offer.php?id=43626">Parallel
+      corpora and WordSpace models: using a third language as an
+      interlingua to enrich multilingual resources</a>. Adil Toumouh,
+      Dominic Widdows, Ahmed Lehireche.  International Journal of
+      Information and Communication Technology (IJICT), 3(4): 299-313
+      (2011)
+      </dt>
+  </dl>
+
+<b>Differential geometry papers</b> (I <i>was</i> properly trained in something once upon a time, honest!)
+
+<dl>
+<dt>
+    <a href="http://www.puttypeg.net/papers/double-complex.pdf">  
+A Dolbeault-type Double Complex on Quaternionic Manifolds</a>. Dominic Widdows.
+<em>Asian Journal of Mathematics</em>, Vol 6, No 2, pp. 253-276, June 2002.
+    <a href="http://www.puttypeg.net/papers/double-complex.ps">(.ps)</a>
+</dt>
+<br>
+<dt>
+    <a href="http://www.puttypeg.net/papers/quaternionic-algebra.pdf">  
+Quaternionic Algebra described by Sp(1) representations</a>.     Dominic Widdows.
+<em>Quarterly Journal of Mathematics</em>, Oxford, 2003.
+    <a href="http://www.puttypeg.net/papers/quaternionic-algebra.ps">(.ps)</a>
+</dt><dt>
+</dl>
+
+<br/>
+<h3>Conference Papers, Tech Reports, etc.</h3>
+
+
+<h4>Transportation and Geo papers</h4>
+
+Excited to still be writing for new fields, with work particularly focussing on Southeast Asia.
+
+<dl>
+  <dt><a href="./papers/southeast_asia_spatial_entity_resolution.pdf">Spatial Entity Resolution between Restaurant Locations and Transportation Destinations in Southeast Asia</a>.
+    Emily Gao, Dominic Widdows (Grab Technologies).
+    Presented at 6th International Conference on Geospatial Information Systems Theory, Applications, and Management (<a href="http://www.gistam.org/">GISTAM</a>), 
+    May 7-9, 2020.</dt>
+</br>
+
+  <dt><a href="./papers/grabshare.pdf">GrabShare: The Construction of a Realtime Ridesharing Service</a>.
+    Dominic Widdows, Jacob Lucas, Muchen Tang, Weilun Wu (Grab Technologies).
+    Presented at International Conference on Intelligent Transportation Engineering (<a href="http://www.icite.org/">ICITE</a>), 
+    Nanyang Technological University, Singapore, Sep. 1-3, 2017.</dt>
+
+</dl>
+
+
+<h4>Semantic Vectors, Quantum Informatics, Learning and Reasoning</h4>
+
+My main public research activities in the past few years have been in
+the area of <a href="http://quantuminteraction.org/">Quantum
+Informatics</a>
+and <a href="http://code.google.com/p/semanticvectors">Semantic
+Vectors</a>. I've stopped trying to categorize papers in this area as
+being about mathematical models, software, or empirical
+experiments, because these have all been
+coming together into one encompassing project. Much of this work has
+been inspired and carried out
+with <a href="https://sbmi.uth.edu/faculty-and-staff/trevor-cohen.htm">Trevor
+Cohen</a>.
+
+<dl>
+  <dt>
+    <a href="https://arxiv.org/abs/2104.06555">Should Semantic Vector Composition be Explicit? Can it be Linear?</a>. 
+Dominic Widdows, Kristen Howell, Trevor Cohen. <i>SemSpace 2021</i>.
+  
+  <dt>
+    <a href="http://www.puttypeg.net/papers/hyperdimensional-immunology.pdf">
+      Graded Vector Representations of Immunoglobulins Produced in Response to  West Nile Virus</a>.
+Trevor Cohen, Dominic Widdows, Jason A. Vander Heiden, Namita T. Gupta, and Steven H. Kleinstein
+        <i>Proceedings of the Tenth International Conference on Quantum Interaction</i>,
+    San Francisco, California, 2016
+  </dt>
+<br>
+  <dt>
+    <a href="http://www.puttypeg.net/papers/embedding-probabilities.pdf">
+Embedding Probabilities in Predication Space with Hermitian Holographic Reduced Representations</a>.
+    Trevor Cohen, Dominic Widdows.
+    <i>Proceedings of the Ninth International Conference on Quantum Interaction</i>,
+    Filzbach, Switzerland, 2015
+  </dt>
+<br>
+    <dt>
+      <a href="http://www.puttypeg.net/papers/graded-semantic-vectors.pdf">
+	Graded Semantic Vectors: An Approach to Representing Graded Quantities in Generalized Quantum Models</a>.
+    Dominic Widdows, Trevor Cohen.
+    <i>Proceedings of the Ninth International Conference on Quantum Interaction</i>,
+    Filzbach, Switzerland, 2015
+  </dt>
+<br>
+  <dt>
+    <a href="http://www.puttypeg.net/papers/ideologies-points-of-view.pdf">
+      Ideologies and their Points of View</a>.
+    Kirsty Kitto, Dominic Widdows.
+    <i>Proceedings of the Ninth International Conference on Quantum Interaction</i>,
+    Filzbach, Switzerland, 2015
+  </dt>
+<br>
+  <dt>
+    <a href="http://www.puttypeg.net/papers/projection-logic.pdf">
+      Real-Orthogonal Projections as Quantum Pseudo-Logic</a>.
+    Marjan Matvejchuk, Dominic Widdows 
+    <i>Proceedings of the Ninth International Conference on Quantum Interaction</i>,
+    Filzbach, Switzerland, 2015
+  </dt>
+
+<dt>
+<a href="http://onlinelibrary.wiley.com/doi/10.1038/psp.2014.37/abstract">
+Predicting High-Throughput Screening Results With Scalable Literature-Based Discovery Methods</a>.
+T Cohen, D Widdows, C Stephan, R Zinner, J Kim, T Rindflesch, P Davies.
+<i>CPT Pharmacometrics Syst. Pharmacol.</i> 3, e140, 2014.
+</dt>
+
+<br>
+
+<dt>
+<a href="http://www.puttypeg.net/papers/expansion-by-analogy.pdf">
+Expansion-by-Analogy: A Vector Symbolic Approach to Semantic Search</a>.
+Trevor Cohen, Dominic Widdows, Thomas Rindflesch.
+<i>Proceedings of the Eighth International Conference on Quantum Interaction</i>,
+Filzbach, Switzerland, 2014</dt>
+
+<br>
+
+<dt>
+<a href="http://www.puttypeg.net/papers/purposefulchoice.pdf">Purposeful Choice and
+Point-of-View: A Generalized Quantum Approach</a>. Dominic Widdows.
+<i>Proceedings of the Seventh International Conference on Quantum Interaction</i>, Leicester, UK, 2013</dt>
+<br>
+
+<dt>
+<a href="http://www.puttypeg.net/papers/orthogonality-and-orthography.pdf">
+Orthogonality and Orthography: Introducing Measured Distance into Semantic Space</a>.
+Trevor Cohen, Dominic Widdows, Manuel Wahle.
+<i>Proceedings of the Seventh International Conference on Quantum Interaction</i>, Leicester, UK, 2013</dt>
+
+
+<br>
+
+<dt>
+<a href="http://www.puttypeg.net/papers/typed-vectors.pdf">Real, Complex, and Binary
+Semantic Vectors</a>. Dominic Widdows, Trevor Cohen, Lance De
+Vine. <i>Proceedings of the Sixth International Symposium on Quantum
+Interaction</i>, Paris, France, 2012</dt>
+
+
+<br>
+
+<dt>
+<a href="http://eprints.qut.edu.au/54257/1/cohenQI2012novspace.pdf">
+Many paths lead to discovery: analogical retrieval of cancer therapies.</a>
+Cohen, T. Widdows, D. De Vine, L. Schvaneveldt, RW. Rindflesch, T.
+<i>Proceedings of the Sixth International Symposium on Quantum
+Interaction</i>, Paris, France, 2012</dt>
+
+
+<br>
+
+<dt>
+<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3540485/">
+Deterministic Binary Vectors for Efficient Automated Indexing of MEDLINE/PubMed Abstracts</a>.
+Wahle M, Widdows D, Herskovic JR, Bernstam EV, Cohen T. <i>AMIA</i>
+Annu Symp Proc. 2012;2012:940-9. Epub 2012 Nov 3.
+</dt>
+
+<br>
+
+<dt><a href="http://www.puttypeg.net/papers/schizophrenias-prozac.pdf">Finding Schizophrenia's
+Prozac: Emergent Relational Similarity in Predication Space</a>. Cohen,
+T. Widdows, D. Schvaneveldt, RW. Rindflesch, T. <i>Proceedings of the
+Fifth International Symposium on Quantum Interaction</i>, Aberdeen,
+UK, 2011.</dt>
+
+<br>
+
+<dt>
+<a href="http://www.puttypeg.net/papers/logical-leaps.pdf">Logical Leaps and Quantum
+Connectives: Forging Paths through Predication Space</a>. Cohen,
+T. Widdows, D. Schvaneveldt, R. Rindflesch, T. <i>AAAI Fall 2010
+symposium on Quantum Informatics for cognitive, social and semantic
+processes (QI-2010)</i>.
+</dt>
+
+<br>
+
+<dt><a href="http://www.puttypeg.net/papers/semantic-vector-products.pdf">Semantic Vector
+Products: Some Initial Investigations</a>. Dominic Widdows. Second
+AAAI Symposium on Quantum Interaction, Oxford, 26th – 28th March
+2008.
+</dt>
+</dl>
+
+In this paper, Trevor Cohen and I applied some semantic vector
+techniques to analyzing authorship and people and places mentioned in
+the Bible. It was a lot of fun, and hopefully highlights one way that
+literary scholars, physicists, and computer scientists might interact.
+<br>
+
+<dl>
+<dt><a href="http://www.puttypeg.net/papers/synopticvectors.pdf">Semantic Vector
+Combinations and the Synoptic Gospels</a>. Dominic Widdows, Trevor
+Cohen,
+<i>Third International Symposium on Quantum Interaction</i>,
+Saarbruecken, March 2009, pages 215-265.</dt> </dl>
+
+
+The following papers describe
+the <a href="http://semanticvectors.googlecode.com/">SemanticVectors
+package</a> in some detail. The most up-to-date documentation is as
+ever on the pacakge home page.
+
+<dl>
+<dt><a href="http://www.puttypeg.net/papers/semantic-vectors-package-2010.pdf">
+The Semantic Vectors Package: New Algorithms and Public Tools for
+Distributional Semantics.</a> Dominic Widdows, Trevor Cohen, <i>Fourth IEEE
+International Conference on Semantic Computing (IEEE
+ICSC2010)</i>.
+</dt>
+
+<br>
+
+<dt><a href="http://www.puttypeg.net/papers/semanticvectors.v2.pdf">Semantic Vectors: A
+  Scalable Open Source Package and Online Technology Management
+  Application.</a> Dominic Widdows and Kathleen Ferraro.
+  <i>Sixth International Conference on Language Resources and
+  Evaluation (LREC 2008)</i>.  </dt> </dl>
+
+In recent years, it has become increasingly clear that some of the
+mathematical structures responsible for the supposed "weirdness" of
+quantum mechanics aren't weird at all. Quantum mechanics is often much
+more in line with common sense than the predictions of classical
+physics. Peter Bruza and I finally felt confident enough about this to
+submit a paper on the subject, trying to encourage people to think
+about the goals and opportunities of an
+<i>Open World Science</i> approach.
+
+<dl>
+<dt><a href="http://www.puttypeg.net/papers/open-world-science.pdf">
+Quantum Information Dynamics and Open World Science.</a>
+Dominic Widdows and Peter Bruza.
+<i>AAAI Spring Symposium on Quantum Interaction</i>, 
+Stanford, California, March 2007.
+</dt></dl>
+
+
+There is also a chapter in the <a href="http://www.elsevier.com/wps/find/bookdescription.cws_home/712672/description#description">
+<i>Handbook of Quantum Logic and Quantum Structures</i></a> that
+describes more of the cognitive and logical motivations for using
+"quantum" models to describe intelligent behaviour.
+
+<dl>
+  <dt><a href="http://arxiv.org/abs/quant-ph/0612051">A Quantum Logic
+of Down Below</a>. P.D. Bruza, D. Widdows, John Woods.  Appears in
+K. Engesser, D. Gabbay and D. Lehmann (eds) <i>Handbook of Quantum
+Logic, Quantum Structure and Quantum Computation.</i> Elsevier, 2009. pages 625-660.
+</dt> </dl>
+
+There is much preparatory ground for this work in <i>Geometry and
+Meaning</i>, and in some of the Information Retrieval papers below. An
+increasing number of key researchers have helped us considerably so
+far, including <a href="http://www.johnwoods.ca/">John Woods</a> and <a href="http://www.dcs.gla.ac.uk/~keith/">Keith van Rijsbergen</a>.
+
+
+<h4>Information Extraction</h4>
+
+Some of the first work I did at Google.
+
+<dl>
+<dt>
+<a href="http://research.google.com/pubs/pub34460.html">
+Scalable Attribute-Value Extraction from Semi-Structured Text</a>. Yuk
+Wah Wong, Dominic Widdows, Tom Lokovic, Kamal Nigam, ICDM Workshop on
+Large-scale Data Mining: Theory and Applications, 2009.
+</dt>
+</dl>
+
+<h4>Biomedical Informatics</h4>
+
+A survey article.
+
+<dl>
+<dt>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/19232399">Empirical
+Distributional Semantics: Methods and Biomedical Applications</a>
+Trevor Cohen, Dominic Widdows, Journal of Biomedical Informatics,
+April 2009, 42(2), pages 390-405.
+</dt>
+</dl>
+
+The following two papers are a pair of related works, describing
+recent progress that my collaborators in Algeria and Germany and I
+have been making in ontology learning and adaptation for the medical domain. 
+
+The first paper describes some detailed experiments on ontology
+adaptation using purely noun coocurrences, led by Mr Toumouh.  The
+second paper is more general, and describes some other linguistic
+constructions used for clustering and ontology adaptation, and
+describes a broad strategy for combining text-mining solutions with
+hand-coded language resources, motivated by work in word sense
+disambiguation and language acquisition over the past 15 years.
+
+<dl><dt>A. Toumouh, A. Lehireche, D. Widdows, M. Malki <a href="http://www.puttypeg.net/papers/biomedical-wordnet.pdf">Adapting WordNet to the Medical
+Domain using Lexicosyntactic Patterns in the Ohsumed Corpus.</a>
+Appeared in <i>4th ACS/IEEE International Conference on Computer
+Systems and Applications (AICCSA-06)</i> March 8-11, 2006,
+Dubai/Sharjah, UAE.
+</dt>
+
+<br>
+
+<dt>Dominic Widdows, Adil Toumouh, Beate Dorow, Ahmed Lehireche
+ <a href="http://www.puttypeg.net/papers/lrec-biomedical.pdf">Ongoing Developments in Automatically Adapting Lexical Resources to the Biomedical Domain.</a> 
+<em>Fifth International Conference on Language Resources and Evaluation (LREC 2006)</em>. Genoa, Italy, May 24-26, 2006.
+</dt>
+</dl>
+
+<br>
+
+The following paper is an older work, carried out as part of the <a href="http://muchmore.dfki.de/">MUCHMORE</a> project.
+
+<p>
+</p><dl>
+ <dt> Dominic Widdows, Stanley Peters, Scott Cederberg, Chiu-Ki Chan,
+    Diana Steffen and Paul Buitelaar.
+    <a href="http://www.puttypeg.net/papers/biomed-wsd.pdf">
+    Unsupervised Monolingual and Bilingual Word-Sense Disambiguation
+of Medical Documents using UMLS.</a><em> Natural
+Language Processing in Biomedicine ACL 2003 Workshop</em>, ACL
+workshop, Sapporo, Japan, July 11, 2003, pages 9-16.
+    <a href="http://www.puttypeg.net/papers/biomed-wsd.ps">(.ps)</a>    
+</dt>
+</dl>
+
+<h4>Quaternionic algebra and geometry</h4>
+
+These are very technical ...
+
+<dl>
+<dt>
+Dominic Widdows.
+    <a href="http://www.puttypeg.net/papers/double-complex.pdf">  
+A Dolbeault-type Double Complex on Quaternionic Manifolds.</a>
+<em>Asian Journal of Mathematics</em>, Vol 6, No 2, pp. 253-276, June 2002.
+    <a href="http://www.puttypeg.net/papers/double-complex.ps">(.ps)</a>
+</dt><dt>
+<p>
+    Dominic Widdows.
+    <a href="http://www.puttypeg.net/papers/quaternionic-algebra.pdf">  
+Quaternionic Algebra described by Sp(1) representations.</a>
+<em>Quarterly Journal of Mathematics</em>, Oxford, 2003.
+    <a href="http://www.puttypeg.net/papers/quaternionic-algebra.ps">(.ps)</a>
+</p></dt><dt>
+<p>
+    Dominic Widdows.
+    <a href="http://www.puttypeg.net/papers/dominic-thesis.pdf">  
+<em>Quaternionic Algebraic Geometry.</em></a>
+D.Phil thesis, University of Oxford, 2000.
+    <a href="http://www.puttypeg.net/papers/dominic-thesis.ps">(.ps)</a>
+</p></dt></dl>
+
+<h4>Geometric Logic and Inductive Reasoning</h4>
+<dl>
+  <dt>Dominic Widdows, Michael Higgins. <a href="http://www.puttypeg.net/papers/subspace-logic.pdf">
+      Geometric ordering of concepts, logical disjunction,
+      and learning by induction.</a> <em>Compositional
+      Connectionism in Cognitive Science</em>, AAAI Fall
+      Symposium Series, Washington, DC, October 22-24, 2004.
+<a href="http://www.puttypeg.net/papers/subspace-logic.ps">(.ps)</a>
+      </dt>
+</dl>
+
+<h4>Information Retrieval</h4>
+
+<dl>
+    <dt> Dominic Widdows.
+    <a href="http://www.puttypeg.net/papers/negation-ir.pdf">
+    Orthogonal Negation in Vector Spaces for Modelling Word-Meanings and
+  Document Retrieval.</a>
+<em>41st Annual Meeting of the Association for Computational
+Linguistics</em>, Sapporo, Japan, July 7-12, 2003, pages 136-143.
+    <a href="http://www.puttypeg.net/papers/negation-ir.ps">(.ps)</a>    
+</dt>
+
+<p>
+    
+<em>  The following paper fills a (surprising) gap in the vector space
+    model for information retrieval using quantum logic: </em>
+</p><dt> Dominic Widdows and Stanley Peters.
+    <a href="http://www.puttypeg.net/papers/quantum-senses.pdf"> Word
+Vectors and Quantum Logic: Experiments with negation and
+disjunction.</a> <em>Eighth Mathematics of Language
+Conference</em>, Bloomington,
+    Indiana, June 20-22, 2003, pages 141-154.
+    <a href="http://www.puttypeg.net/papers/quantum-senses.ps">(.ps)</a>
+<p>
+
+</p></dt></dl>
+
+<h4>Automatic Concept Learning using Vectors</h4>
+
+<dl>
+
+<dt>
+Adil Toumouh, Dominic Widdows, Ahmed
+Lehireche: <a href="http://www.inderscience.com/offer.php?id=43626">Parallel
+corpora and WordSpace models: using a third language as an interlingua
+to enrich multilingual resources.</a> International Journal of
+Information and Communication Technology (IJICT), Volume 3(4): 299-313
+(2011)
+</dt>
+
+<p>
+
+</p><dt>
+Dominic Widdows, Beate Dorow, and Chiu-Ki Chan.
+<a href="http://www.puttypeg.net/papers/bilingual-terms.pdf">
+Using Parallel Corpora to enrich Multilingual Lexical Resources.</a>
+<em>Third International Conference on Language Resources and Evaluation,
+Las Palmas</em>, May 2002, pages 240-245.
+    <a href="http://www.puttypeg.net/papers/bilingual-terms.ps">(.ps)</a>
+<p>
+    
+</p></dt><dt>
+Dominic Widdows.
+    <a href="http://www.puttypeg.net/papers/enrich-taxonomies.pdf">
+    Unsupervised methods for developing taxonomies by combining
+    syntactic and statistical information.</a> In <em>Proceedings of
+    HLT/NAACL 2003</em>, Edmonton, Canada, June 2003, pages 276-283.
+    <a href="http://www.puttypeg.net/papers/enrich-taxonomies.ps">(.ps)</a>
+<p>
+</p></dt><dt>Scott Cederberg and Dominic Widdows.
+    <a href="http://www.puttypeg.net/papers/hyponymy.pdf"> Using
+LSA and Noun Coordination Information to Improve the Precision and
+Recall of Automatic Hyponymy Extraction.</a> In <em>Seventh Conference
+on Computational Natural Language Learning (CoNLL-2003)</em>,
+    Edmonton, Canada, June 2003, pages 111-118.
+    <a href="http://www.puttypeg.net/papers/hyponymy.ps">(.ps)</a>
+<p>
+</p></dt><dt>Baldwin, Timothy, Colin Bannard, Takaaki Tanaka and Dominic
+  Widdows <a href="http://www.puttypeg.net/papers/mwe-decomposability.pdf">An Empirical
+  Model of Multiword Expression Decomposability</a>, <em>Proceedings
+  of the ACL-2003 Workshop on Multiword Expressions: Analysis,
+  Acquisition and Treatment</em>, Sapporo, Japan, July 2003, pages
+  89-96.
+
+</dt></dl>
+
+<h4 id="graphs">Automatic Concept Learning using Graph Theory</h4>
+
+<dl>
+<dt>
+Dominic Widdows and Beate Dorow.
+   <a href="http://www.puttypeg.net/papers/lexical-graphs.pdf"> 
+  A Graph Model for Unsupervised Lexical Acquisition.</a>
+    <em>19th International Conference on Computational Linguistics</em>,
+    Taipei, August 2002, pages 1093-1099.
+    <a href="http://www.puttypeg.net/papers/lexical-graphs.ps">(.ps)</a>
+<p>
+
+</p></dt><dt>
+Beate Dorow and Dominic Widdows,
+    <a href="http://www.puttypeg.net/papers/sense-discovery.pdf">
+    Discovering Corpus-Specific Word Senses.</a>
+    <em>EACL 2003</em>, Budapest, Hungary.
+ Conference Companion (research notes and demos) pages 79-82.
+    <a href="http://www.puttypeg.net/papers/sense-discovery.ps">(.ps)</a>
+<p>
+ </p></dt>
+
+<dt>
+    Beate Dorow, Dominic Widdows, Katerina Ling, Jean-Pierre Eckmann,
+    Danilo Sergi and Elisha Moses.
+       <a href="http://www.puttypeg.net/papers/curvature-links.pdf">
+      Using Curvature and Markov Clustering in Graphs for Lexical
+    Acquisition and Word Sense Discrimination.</a>
+        <em>MEANING-2005, 2nd Workshop organized by the
+      MEANING Project</em>, February 3rd-4th 2005, Trento, Italy.        <a href="http://www.puttypeg.net/papers/curvature-links.ps">(.ps)</a>
+    <p>
+</p></dt>
+
+<dt>Dominic Widdows and Beate Dorow.
+<a href="http://www.puttypeg.net/papers/idioms-asymmetry.pdf">
+        Automatic Extraction of Idioms using Graph Analysis and Asymmetric
+  Lexicosyntactic Patterns.</a>
+<em>ACL2005 Workshop on Deep Lexical Acquisition</em>
+Ann Arbor, Michigan, June 30th, 2005
+</dt>
+
+</dl>
+    
+    
+<h4>Information visualisation</h4>    
+<dl>    
+  <dt>
+Dominic Widdows, Scott Cederberg and Beate Dorow.
+    <a href="http://www.puttypeg.net/papers/visualising-meaning.pdf">
+    Visualisation Techniques for Analysing Meaning.</a>
+    <em>Fifth International Conference on Text, Speech and Dialogue</em>,
+    Brno, Czech Republic, September 2002, pages 107-115.
+    <a href="http://www.puttypeg.net/papers/visualising-meaning.ps">(.ps)</a>
+<p>
+
+</p></dt><dt>
+    Dominic Widdows and Scott Cederberg,
+    <a href="http://www.puttypeg.net/papers/bilingual-visualization.pdf">
+    Monolingual and Bilingual Concept Visualization from Corpora.</a>
+    Demonstration presented at <em>HLT/NAACL 2003</em>, Edmonton,
+    Canada, June 2003.
+    <a href="http://www.puttypeg.net/papers/bilingual-visualization.ps">(.ps)</a>
+<p>
+</p></dt></dl>
+
+<h4>Meaning in Context (including applications to Medical Informatics)</h4>
+
+<dl>
+  <dt> Dominic Widdows.
+    <a href="http://www.puttypeg.net/papers/mathematical-context.pdf">A
+Mathematical Model for Context and Word-Meaning.</a>
+<em>Fourth International and Interdisciplinary Conference on Modeling and
+Using Context</em>, Stanford, California, June 23-25, 2003, pages 369-382.
+    <a href="http://www.puttypeg.net/papers/mathematical-context.ps">(.ps)</a>
+<p>
+      
+  </p></dt><dt> Dominic Widdows, Stanley Peters, Scott Cederberg, Chiu-Ki Chan,
+    Diana Steffen and Paul Buitelaar.
+    <a href="http://www.puttypeg.net/papers/biomed-wsd.pdf">
+    Unsupervised Monolingual and Bilingual Word-Sense Disambiguation
+of Medical Documents using UMLS.</a><em> Natural
+Language Processing in Biomedicine ACL 2003 Workshop</em>, ACL
+workshop, Sapporo, Japan, July 11, 2003, pages 9-16.
+    <a href="http://www.puttypeg.net/papers/biomed-wsd.ps">(.ps)</a>    
+</dt></dl>
+
+
+<h3>Distributed Databases, Peer to Peer and Information Commons Research</h3>
+
+The main ongoing research I worked on at MAYA was in the area of
+peer-to-peer networks and distributed databases, collectively many of
+the research goals being towards the idea of creating and maintaining
+an <a href="http://www.maya.com/infocommons">Information Commons</a>.
+
+<h4>Foundational Papers</h4>
+
+<dl>
+<dt><a href="http://www.puttypeg.net/papers/uforms-overview.pdf">Distributed Knowledge
+  Representation using Universal Identity and Replication.</a> Peter
+  Lucas, Jeff Senn and Dominic Widdows. MAYA Design Inc. Technical
+  Report MAYA-05007.
+</dt>
+<p>
+</p><dt><a href="http://www.puttypeg.net/papers/roles-overview.pdf">Roles in the Universal
+Database: Data and Metadata in a Distributed Semantic Network.</a>
+Peter Lucas, Dominic Widdows, Joe Hughes and William Lucas.  MAYA
+Design Inc. Technical Report MAYA-05009.
+</dt>
+</dl>
+
+<h4>Peer-to-Peer Technology and Research Supporting the Information Commons</h4>
+
+<dl>
+<dt>
+<a href="http://www.puttypeg.net/papers/shepherdable-indexes.pdf">Shepherdable Indexes and
+Persistent Search Services for Mobile Users</a>. Michael Higgins,
+Dominic Widdows, Magesh Balasubramanya, Peter Lucas, David Holstius.
+<em>8th International Symposium on Distributed Objects and
+Applications (DOA).</em> Montpellier, France, Oct 30 - Nov 1, 2006
+</dt></dl>
+
+<dl>
+<a href="http://www.puttypeg.net/papers/distributed-collaboration.pdf">
+Managing Distributed Collaboration in a Peer-to-Peer Network</a>.
+Michael Higgins, Stuart Roth, Jeff Senn, Peter Lucas, Dominic Widdows.
+<em>14th International Conference on Cooperative
+Information Systems (CoopIS 2006).</em> Montpellier, France,
+Nov. 2006.
+</dl>
+
+<dl>
+  <a href="http://www.puttypeg.net/papers/civium-world-model.pdf">The Civium World Model: Spatial and Semantic Issues in Pervasive Computing</a>.
+  Dominic Widdows, Peter Lucas, David Holstius, Michael Higgins. Tech Report MAYA-07013.
+
+</dl>
+
+
+<h4>Practical Information Systems using the Information Commons</h4>
+
+<dl><dt> <a href="http://www.biotech-online.com/artimg/a20061628224241.PDF">The
+Universal Genetics Database: Information Sharing in Genetics and
+Beyond.</a> Dr D. Widdows and Prof M. Barmada. Byline article for
+BioTech International, Vol. 18 No. 3, pp. 11-13, Reed Elsevier, June
+2006.</dt>
+</dl>
+
+<p>
+
+<em>The following paper, a collaboration between the Brookings Institution, 3
+Rivers Connect, and MAYA Design, describes some of the ways in which
+the Information Commons is being used as a public information space,
+combining geographic and socioeconomic data and building interfaces
+that practioners in a range of fields can use to access and understand
+information in ways the were previously impossible.</em>
+
+</p><p>
+
+</p><dl>
+<dt><a href="http://www.puttypeg.net/papers/infocommons-ppgis.pdf">The National
+  Infrastructure for Community Statistics: Liberating Public GIS and
+  Statistical Data.</a> Pari Sabety (The Brookings Institution), Chris
+  Sweeney (3 Rivers Connect), Dominic Widdows, Joshua Knauer, Maryl
+  Curran Widdows and Peter Lucas (MAYA Design).  <em>Proceedings of
+  the 4th Annual Public Participation GIS (PPGIS) Conference,</em>
+  Cleveland, Ohio. August, 2005.
+</dt></dl>
+
+<p>
+
+</p><dl><dt>Peter Lucas, Magesh Balasubramanya, Dominic Widdows and Michael Higgins.
+<a href="http://www.puttypeg.net/papers/information-commons-gazetteer.pdf">The
+Information Commons Gazetteer: A Public Resource of Populated
+Places and Worldwide Administrative Divisions.</a>
+<em>Fifth International Conference on Language Resources and Evaluation (LREC 2006), Genoa, Italy, May 24-26, 2006</em>
+</dt></dl>
+
+<p>
+
+<em>
+The following paper is a much more complete version of the oral
+presentation given at the AAACL conference in Ann Arbor in 2005.  As
+well as describing how peer-to-peer technology will benefit corpus
+linguistics and empirical science in general, the paper describes the
+Information Commons Publication Model, which uses recognized publisher
+indexes to provide quality assurance.
+</em>
+
+</p><dl><dt>Magesh Balasubramanya, Michael Higgins, Peter Lucas, Jeff Senn and
+Dominic Widdows. <a href="http://www.puttypeg.net/papers/lrec-distributed-corpora.pdf">Collaborative Annotation
+that Lasts Forever: Using Peer-to-Peer Technology for Disseminating
+Corpora and Language Resources.</a>
+<em>Fifth International Conference on Language Resources and Evaluation (LREC 2006)</em>. Genoa, Italy, May 24-26, 2006.
+</dt>
+</dl>
+
+<hr>
+Back to <a href="http://www.puttypeg.net/">Puttypeg home page</a>.
+
+
+
+
+</body></html>

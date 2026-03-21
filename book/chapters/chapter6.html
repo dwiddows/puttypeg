@@ -1,0 +1,424 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Chapter 6 - Exploring Vector Spaces in One and More Languages</title>
+    <link rel="stylesheet" type="text/css" href="../css/book-style.css">
+  </head>
+
+  <body>
+    <h1 align=center>Chapter 6. Exploring Vector Spaces in One and More Languages</h1>
+
+<p>
+This chapter is <i>much</i> easier than the last one. Having gone
+through the mathematics and (in a small example) the process of
+building word vectors, this chapter concentrates entirely on the
+reward for these achievements: being able to learn a lot about words
+themselves by exploring their vector spaces. The tour guide
+nature of this book is being given free-rein: you've put in (or
+adroitly skipped!) the hard mathematical labour to get to this point,
+and now you get to be a tourist and enjoy the view.
+
+<p>
+
+Not that this chapter is without new ideas. We'll talk about different
+ways of making the views more informative than a simple list of
+related words, by grouping words into clusters or plotting their
+vectors in a two-dimensional `word-spectrum.' We'll also see how to use
+documents from two languages to build a single vector space with words
+from <i>both</i> languages, which can (for example) be used to
+translate words and queries between languages. 
+
+<p>
+
+While this hopefully makes a cohesive and readable story, you don't
+have to read it in sequence, and a perfectly acceptable way to approach
+this chapter is to flick through, see which of the pictures interest
+you, and delve into those sections to see how they were made. Or maybe
+even better, follow the links that I've highlighted at the beginning
+of sections and explore the models online for yourself. They say that
+"seeing is believing," and while the examples chosen for this
+chapter work especially well at highlighting particular points,
+there's no better way to convince yourself that the techniques we've
+described really do work in general than to use them for yourself. A
+few examples of your own will also give you a much better feel for
+what's going on, and with these under your belt, the mathematical
+methods described will make a lot more intuitive sense.
+
+<hr>
+
+<h2>Sections</h2>
+
+<h3>1. Welcome to WORDSPACE</h3>
+
+This section gives a short guided tour of the Infomap WORDSPACE
+demo. An example is given below:
+
+<CENTER>
+<TABLE WIDTH="100%" BORDER=0><TR><TD ALIGN="right"><B>Keywords:</B></TD><TD ALIGN="left"><INPUT SIZE="65%" NAME=keywords VALUE="fire">
+</TD>
+</TR>
+<TR><TD ALIGN="right"><B>Negative<BR>Keywords:</B></TD><TD ALIGN="left"><INPUT SIZE="65%" NAME=neg_keywords VALUE="">
+</TD>
+</TR>
+</TABLE>
+<INPUT TYPE=hidden NAME=file_name VALUE=air>
+<INPUT TYPE=hidden NAME=frames VALUE=yes>
+<INPUT TYPE=hidden NAME=top_frame VALUE=>
+<SELECT NAME=corpus>
+<OPTION VALUE=bnc>British National Corpus
+<OPTION VALUE=springer>Medical Abstracts
+<OPTION VALUE=ohsumed> Medline Abstracts
+<OPTION VALUE=nyt SELECTED>New York Times
+<OPTION VALUE=ap>AP-newswire
+<OPTION VALUE=wsj>Wall Street Journal
+</SELECT>
+<SELECT NAME=cmd>
+<OPTION VALUE=associate SELECTED>Related Words
+<OPTION VALUE=search>Retrieve Documents
+</SELECT>
+<SELECT NAME=contrast>
+<OPTION VALUE=nearest SELECTED>Nearest Neighbors
+<OPTION VALUE=clustered>Clustered Results
+<OPTION VALUE=pairs>Contrasting Pairs
+</SELECT>
+</TABLE>
+
+<TABLE BORDER=2 WIDTH=50% CELLPADDING=5>
+<TR><TD ALIGN=CENTER BGCOLOR=WHEAT><B>Add to query</B></TD>
+<TD ALIGN=center BGCOLOR=wheat><B>Subtract from query</B></TD>
+<TD BGCOLOR=WHEAT><B>Term</B></TD>
+<TD BGCOLOR=WHEAT><B>Similarity</B></TD></TR>
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___IN___fire></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___NEG_IN___fire></TD>
+    <TD>fire</TD><TD>1.000000</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___IN___firefighters></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___NEG_IN___firefighters></TD>
+    <TD>firefighters</TD><TD>0.743202</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___IN___blaze></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___NEG_IN___blaze></TD>
+    <TD>blaze</TD><TD>0.673635</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___IN___cease></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___NEG_IN___cease></TD>
+    <TD>cease</TD><TD>0.647473</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___IN___fires></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___NEG_IN___fires></TD>
+    <TD>fires</TD><TD>0.619991</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___IN___flames></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___NEG_IN___flames></TD>
+    <TD>flames</TD><TD>0.571786</TD></TR>
+
+</TABLE>
+</CENTER>
+<hr>
+
+<h3>2. Building a WORDSPACE</h3>
+
+This section describes precisely how the WORDSPACE is built, using the
+freely available <a href="http://infomap-nlp.sourceforge.net/">Infomap
+software</a>. Today, you're better off using
+the <a href="http://semanticvectors.googlecode.com">SemanticVectors
+package</a>.
+
+
+The WORDSPACE is very much like a term-document matrix as described in
+    Chapter 5, with two main differences:
+
+<ol>
+<li>Instead of recording which terms occured in which documents, we
+record which terms occured near to frequent, important
+<i>content-bearing terms</i></li>
+<li>To compress this information into fewer dimensions, a technique
+from linear algebra called <i>singular value decomposition</i> is
+used. When applied to word-vectors, this technique is often called
+<i>latent semantic indexing</i> or <i>latent semantic
+analysis</i>.</li>
+</ol>
+
+<h3>3. Clustering related words into concept groups</h3>
+
+So far we have only said how far neighbouring words are from a target
+query. In this section we describe the way in which <i>clustering</i>
+can be used to group these neighbours into more interesting contextual
+groups. These can often represent different usages and even different
+meanings of ambiguous words. An example using the word <i>plant</i> is
+given below.
+
+<hr>
+
+<CENTER>
+<TABLE WIDTH="100%" BORDER=0><TR><TD ALIGN="right"><B>Keywords:</B></TD><TD ALIGN="left"><INPUT SIZE="65%" NAME=keywords VALUE="plant">
+</TD>
+</TR>
+<TR><TD ALIGN="right"><B>Negative<BR>Keywords:</B></TD><TD ALIGN="left"><INPUT SIZE="65%" NAME=neg_keywords VALUE="">
+</TD>
+</TR>
+</TABLE>
+<INPUT TYPE=hidden NAME=file_name VALUE=air>
+<INPUT TYPE=hidden NAME=frames VALUE=yes>
+<INPUT TYPE=hidden NAME=top_frame VALUE=>
+<SELECT NAME=corpus>
+<OPTION VALUE=bnc SELECTED>British National Corpus
+<OPTION VALUE=springer>Medical Abstracts
+<OPTION VALUE=ohsumed> Medline Abstracts
+<OPTION VALUE=nyt>New York Times
+<OPTION VALUE=ap>AP-newswire
+<OPTION VALUE=wsj>Wall Street Journal
+</SELECT>
+<SELECT NAME=cmd>
+<OPTION VALUE=associate SELECTED>Related Words
+<OPTION VALUE=search>Retrieve Documents
+</SELECT>
+<SELECT NAME=contrast>
+<OPTION VALUE=nearest>Nearest Neighbors
+<OPTION VALUE=clustered SELECTED>Clustered Results
+<OPTION VALUE=pairs>Contrasting Pairs
+</SELECT>
+<INPUT TYPE=submit VALUE=Send>
+<TABLE CELLPADDING=20>
+<TR><TD>Cluster options<BR>
+<I>(only if Clustered Results selected)</I></TD>
+<TD>Results: <SELECT NAME=results>
+<OPTION VALUE=10>10
+<OPTION VALUE=20>20
+<OPTION VALUE=30>30
+<OPTION VALUE=40>40
+<OPTION VALUE=50>50
+<OPTION VALUE=60>60
+<OPTION VALUE=70>70
+<OPTION VALUE=80>80
+<OPTION VALUE=90>90
+<OPTION VALUE=100 SELECTED>100
+<OPTION VALUE=110>110
+<OPTION VALUE=120>120
+<OPTION VALUE=130>130
+<OPTION VALUE=140>140
+<OPTION VALUE=150>150
+<OPTION VALUE=160>160
+<OPTION VALUE=170>170
+<OPTION VALUE=180>180
+<OPTION VALUE=190>190
+<OPTION VALUE=200>200
+</SELECT></TD>
+<TD>Clusters: <SELECT NAME=clusters>
+<OPTION VALUE=1> 1 
+<OPTION VALUE=2> 2 
+<OPTION VALUE=3> 3 
+<OPTION VALUE=4> 4 
+<OPTION VALUE=5> 5 
+<OPTION VALUE=6> 6 
+<OPTION VALUE=7 SELECTED> 7 
+<OPTION VALUE=8> 8 
+<OPTION VALUE=9> 9 
+<OPTION VALUE=10> 10 
+<OPTION VALUE=11> 11 
+<OPTION VALUE=12> 12 
+<OPTION VALUE=13> 13 
+<OPTION VALUE=14> 14 
+<OPTION VALUE=15> 15 
+<OPTION VALUE=16> 16 
+<OPTION VALUE=17> 17 
+<OPTION VALUE=18> 18 
+<OPTION VALUE=19> 19 
+<OPTION VALUE=20> 20 
+</SELECT></TD>
+</TABLE>
+<HR>
+</TABLE>
+
+<TABLE BORDER=2 WIDTH=90% CELLPADDING=5>
+<TR><TD ALIGN=center BGCOLOR=wheat><B>Prototypical 
+Example</B> 
+</TD><TD ALIGN=center BGCOLOR=wheat><B>Cluster Members</B> 
+</TD></TR>
+<TR><TD ALIGN=center> plants </TD>
+<TD>  plant plants abundant seeds fertiliser fungi algae aquatic containers poisonous vine temperate habitat arctic herbs ponds grow flora fruits insect medicinal pests</TD></TR>
+<TR><TD ALIGN=center> radioactive </TD>
+<TD>  chernobyl reactor reactors generating radioactive nuclear sellafield plutonium reprocessing uranium mw radiation greenpeace bnfl disposal radioactivity cegb waste environmentalists stations hydro scientist power sizewell</TD></TR>
+<TR><TD ALIGN=center> chemicals </TD>
+<TD>  chemicals toxic chemical organic contamination bacteria pesticides sewage hazards ici</TD></TR>
+<TR><TD ALIGN=center> dioxide </TD>
+<TD>  wastes biomass dioxide nitrogen greenhouse fuels sulphur fuel electricity carbon polluting emissions conserve fossil oxide pollutants</TD></TR>
+<TR><TD ALIGN=center> foliage </TD>
+<TD>  planting flowering flower buds planted foliage flowers evergreen seed shrubs bulbs winter stems seedlings compost spring</TD></TR>
+<TR><TD ALIGN=center> factory </TD>
+<TD>  machinery robots factory factories</TD></TR>
+<TR><TD ALIGN=center> crops </TD>
+<TD>  soil fertilisers nutrients vegetation crop harvested cultivation crops</TD></TR>
+</TD></TR>
+</TABLE>
+</CENTER>
+
+<hr>
+
+<h3>4. Plotting Word-Senses in two dimensions</h3>
+
+As well as clustering, you can often see different word-senses by
+plotting the neighbours of a word in a 2-dimensional plane that is the
+"plane of best fit" for the data. This is just like projecting points
+onto the line of best fit for 2-dimensional data, only we're
+projecting many more dimensions down onto a plane. 
+
+The Word-Spectrum demo that showed this process was written by Scott
+Cederberg.
+
+<h3>5. Mapping between two different WORDSPACES</h3>
+
+By taking the neighbours of a word into account, you can translate its
+meaning much more effectively than by just shipping the query word
+itself from one model to another. For example, the neighbours of
+<i>gas</i> in the New York Times WORDSPACE are much more closely
+related to the neighbours of <i>petroleum</i> than to those of <i>
+gas</i> in the WORDSPACE built from the British National Corpus.
+
+This section gives a few useful examples of this process: there is no
+online demo as yet because this work was pretty bleeding-edge and
+works on a command-line interface, but is not yet demonstrated on the
+web.
+
+<h3>6. Bilingual vector models</h3>
+
+Suppose you want to translate not just between different models but
+also between different languages. In a few special cases, this can be
+done because we have a <i>parallel corpus</i>, that is, a document
+collection that exists in more the one language for which we know
+exactly which pairs of documents (or even sentences) in each language
+are translations of one another. From this, we can build a WORDSPACE
+that represents terms and documents in both languages, and can even
+represent queries using a combination of terms from each language.
+
+The example below shows the neighbours of the German word
+<i>Knochen</i> in both German and English, including its correct
+translation, the English word <i>bone</i>. The English word
+<i>drug</i> is also used as an example, showing that the bilingual
+WORDSPACE can be used to find translations that correspond to the
+different meanings of an ambiguous word.
+
+<hr>
+
+<CENTER>
+<TABLE WIDTH="100%" BORDER=0><TR><TD SIZE="50%"><TABLE>
+<TR><TD COLSPAN="2" ALIGN="center"><B>English</B></TD></TR><TR><TD ALIGN="right">Keywords:</TD><TD ALIGN="left"><INPUT SIZE="40%" NAME=eng_keywords VALUE="">
+</TD></TR>
+<TR><TD ALIGN="right">Negative<BR>Keywords:</TD><TD ALIGN="left"><INPUT SIZE="40%" NAME=eng_neg_keywords VALUE=""></TD></TR></TABLE>
+</TD>
+<TD SIZE="50%"><TABLE>
+<TR><TD COLSPAN="2" ALIGN="center"><B>German</B></TD></TR>
+<TR><TD ALIGN="right">Keywords:</TD><TD ALIGN="left"><INPUT SIZE="40%" NAME=ger_keywords VALUE="knochen">
+</TD></TR>
+<TR><TD ALIGN="right">Negative<BR>Keywords:</TD><TD ALIGN="left"><INPUT SIZE="40%" NAME=ger_neg_keywords VALUE=""></TD></TR></TABLE>
+</TD>
+</TR>
+</TABLE>
+<INPUT TYPE=hidden NAME=file_name VALUE=air>
+<INPUT TYPE=hidden NAME=frames VALUE=yes>
+<INPUT TYPE=hidden NAME=top_frame VALUE=>
+<SELECT NAME=cmd>
+<OPTION VALUE=associate SELECTED>Related English and German Medical Words
+<OPTION VALUE=associate_bridge>English Words from other Models
+<OPTION VALUE=search>English and German Documents
+<OPTION VALUE=search_bridge>English Documents from other Models
+</SELECT>
+<INPUT TYPE=submit VALUE=Send>
+<INPUT TYPE=reset VALUE=Reset>
+</TABLE>
+<HR>
+
+<TABLE WIDTH=90% CELLPADDING=10>
+<TR>
+<TD ALIGN="center"><TABLE BORDER=2 WIDTH=45% CELLPADDING=5>
+<TR><TD ALIGN=CENTER BGCOLOR=WHEAT><B>Add</B></TD>
+<TD ALIGN=center BGCOLOR=wheat><B>Subtract</B></TD>
+<TD BGCOLOR=WHEAT><B>Term</B></TD>
+<TD BGCOLOR=WHEAT><B>Similarity</B></TD></TR>
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_IN___bone></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_NEG_IN___bone></TD>
+    <TD>bone</TD><TD>0.822905</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_IN___osteoinductive></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_NEG_IN___osteoinductive></TD>
+    <TD>osteoinductive</TD><TD>0.669857</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_IN___demineralized></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_NEG_IN___demineralized></TD>
+    <TD>demineralized</TD><TD>0.600958</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_IN___formation></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_NEG_IN___formation></TD>
+    <TD>formation</TD><TD>0.598052</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_IN___extracted></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_NEG_IN___extracted></TD>
+    <TD>extracted</TD><TD>0.559023</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_IN___trabeculae></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___ENG_NEG_IN___trabeculae></TD>
+    <TD>trabeculae</TD><TD>0.544799</TD></TR>
+
+</TABLE>
+</TD>
+<TD ALIGN="center"><TABLE BORDER=2 WIDTH=45% CELLPADDING=5>
+<TR><TD ALIGN=CENTER BGCOLOR=WHEAT><B>Add</B></TD>
+<TD ALIGN=center BGCOLOR=wheat><B>Subtract</B></TD>
+<TD BGCOLOR=WHEAT><B>Term</B></TD>
+<TD BGCOLOR=WHEAT><B>Similarity</B></TD></TR>
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_IN___knochen></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_NEG_IN___knochen></TD>
+    <TD>knochen</TD><TD>1.000000</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_IN___knochenneubildung></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_NEG_IN___knochenneubildung></TD>
+    <TD>knochenneubildung</TD><TD>0.630791</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_IN___bone></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_NEG_IN___bone></TD>
+    <TD>bone</TD><TD>0.630306</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_IN___allogenen></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_NEG_IN___allogenen></TD>
+    <TD>allogenen</TD><TD>0.598935</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_IN___knochens></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_NEG_IN___knochens></TD>
+    <TD>knochens</TD><TD>0.593084</TD></TR>
+
+<TR><TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_IN___knochentransplantation></TD>
+    <TD ALIGN=center><INPUT TYPE=checkbox NAME=___GER_NEG_IN___knochentransplantation></TD>
+    <TD>knochentransplantation</TD><TD>0.587973</TD></TR>
+
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<hr>
+
+<h3>7. Using WORDSPACE and class labelling to enrich a taxonomy</h3>
+
+Finally, this section shows how WORDSPACE can be used to enrich a
+taxonomy. If we want to know where in a taxonomy to place an unknown
+word that appears in a corpus, we collect neighbours from WORDSPACE
+and then see where in the taxonomy these nighbours are concentrated
+using the class-labelling algorithm of Chapter 3. This enables us to
+estimate what hypernyms should be attached to the unknown word.
+
+<hr>
+
+<table>
+<tr>                               
+<td>Up to <a href="../index.html">Geometry and Meaning</a></td>
+<td>|</td>
+<td>Back to <a href="./chapter5.html">Chapter 5</a></td>
+<td>|</td>
+<td>On to <a href="./chapter7.html">Chapter 7</a></td>
+</tr>
+</table>
+
+<!-- hhmts end -->
+  </body>
+</html>
