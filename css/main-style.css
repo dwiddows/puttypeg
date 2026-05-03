@@ -1,32 +1,47 @@
-BODY,BR,TD {       font-family:      verdana,arial,helvetica,sans-serif;
-        font-size:        12pt;
-        color:            black;
-        background-color: ddffdd;     
-	margin-left: 10%;
-	margin-right: 10%;
-	}
-DL,UL,OL,DIR,MENU,TABLE,DD   {       margin-left: 3%;
-        font-size:        12pt;
-        font-family: verdana,arial,helvetica,sans-serif;
-P  {       margin-left: 0%;
-        font-size:        12pt;
-        font-family: arial,helvetica,sans-serif;
-}               
-BLOCKQUOTE { margin-left: 10%;
-	font-family: times;
+BODY,BR,TD {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12pt;
+    color: black;
+    background-color: #ddffdd;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.7;
 }
-PRE  { margin-left: 5%;
-        font-family: "courier new", courier, monospace;
-     } 
-H1,H2,H3,H4       { color:  #6666AA;
-       font-family: verdana, georgia, times;
-       font-weight: bold;
-       margin-left: 0%;       }
-DIV.leftmarg     {  margin-left: 5%;
-       font-family: arial,helvetica,sans-serif    }
-A         {text-decoration: none; }
-A:active  {color: #ff0000;
-       text-decoration: underline}
-A:visited {color: #666666; }
-.note    {color: orange;}
-.warning {color: red; font-weight: bold}
+DL,UL,OL,DIR,MENU,TABLE,DD {
+    margin-left: 3%;
+    font-size: 12pt;
+    font-family: verdana,arial,helvetica,sans-serif;
+    line-height: 1.7;
+}
+LI {
+    line-height: 1.7;
+}
+P {
+    margin-left: 0%;
+    font-size: 12pt;
+    font-family: arial,helvetica,sans-serif;
+}
+BLOCKQUOTE {
+    margin-left: 10%;
+    font-family: times;
+}
+PRE {
+    margin-left: 5%;
+    font-family: "courier new", courier, monospace;
+}
+H1,H2,H3,H4 {
+    color: #6666AA;
+    font-family: verdana, georgia, times;
+    font-weight: bold;
+    margin-left: 0%;
+}
+DIV.leftmarg {
+    margin-left: 5%;
+    font-family: arial,helvetica,sans-serif;
+}
+A         { text-decoration: none; }
+A         { text-decoration: underline; }
+A:active  { color: #ff0000; text-decoration: underline; }
+A:visited { color: #666666; text-decoration: underline; }
+.note     { color: orange; }
+.warning  { color: red; font-weight: bold; }
