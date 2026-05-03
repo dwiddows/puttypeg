@@ -5,16 +5,16 @@ BODY,BR,TD {
     background-color: #ddffdd;
     margin-left: 10%;
     margin-right: 10%;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 DL,UL,OL,DIR,MENU,TABLE,DD {
     margin-left: 3%;
     font-size: 12pt;
     font-family: verdana,arial,helvetica,sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 LI {
-    line-height: 1.7;
+    line-height: 1.6;
 }
 P {
     margin-left: 0%;
